@@ -1,0 +1,29 @@
+.mainBlock {
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    margin: 100px auto;
+    display: table;
+    box-shadow: 0 4px 8px 0 ;
+}
+
+.spinner{
+    display: table;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/* .spinnerTxt{
+    justify-content: center;
+    align-items: center;
+    display: table;
+    margin: 0 auto;
+} */
+/* .imgSpinner{
+    max-width: 30px;
+}  */

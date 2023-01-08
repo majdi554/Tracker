@@ -1,0 +1,141 @@
+.trackerBlock {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    margin: 100px auto;
+    display: table;
+}
+
+.welcome {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.totalMoney{
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: white;
+}
+
+.newTrx{
+    box-sizing: border-box;
+    text-align: center;
+    color: black ;
+    display: table;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: 0;
+    padding: 10px;
+    margin: 0 0 10px;
+    font-size: 10px;
+}
+
+.txrName {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 7px;
+    margin: 0 0 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.newTrx input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 7px;
+    margin: 5px 5px;
+}
+
+.newTrx select {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-size: 13px;
+    padding: 7px;
+    margin: 5px;
+    
+}
+
+.inputGroup{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    width: 100%;
+    
+}
+
+.addTrxBtn{
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+    background-color: blueviolet;
+    border: 0;
+    margin: 5px 0 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.addTrxBtn:hover{
+    background-color: lightblue;
+    color: blueviolet
+}
+
+.latestTrx{
+    margin: 10px 0 0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.latestTrx p {
+    color: blueviolet;
+    font-weight: bold;
+    padding: 0 0 5px;
+    margin: 0;
+    font-size: 13px;
+    border-bottom: 1px solid blueviolet;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    border-bottom: 1px solid blueviolet;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ 
+ul li:last-child {
+    border-bottom: 0;
+}
+
+.expense {
+    color: red;
+}
+
+.deposit {
+    color: green;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    width: 100%;  
+    padding: 5px 0 0;
+    
+}
